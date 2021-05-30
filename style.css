@@ -1,0 +1,481 @@
+.jumbotron {
+    background: linear-gradient(to right, rgb(255, 51, 204), rgba(255, 51, 204, 0));
+    /* height: 800px; */
+   
+}
+
+#navbarNavDropdown{
+    float: right;
+}
+
+.nav-item .nav-link{
+    color: rgb(255, 255, 255)
+}
+
+
+.main{
+    height: 600px;
+    background: linear-gradient(to right, rgb(228, 190, 19), rgba(228, 190, 19, 0));
+}
+
+.carry{
+    position: absolute;
+    height: 60%;
+   
+    left: 50%;
+    top: 22%;
+    max-width: 60%;
+    border-top-left-radius:50%;
+    border-bottom-right-radius: 50%;
+}
+
+.carousel-inner img{
+    border-bottom-right-radius: 40%;
+    border-top-left-radius: 40%;
+
+}
+
+.main-content{
+    position: absolute;
+    
+    top: 30%;
+    left:5%
+
+}
+
+.main-content h1{
+    
+    font-size: 3.5rem;
+}
+
+.main-content h5{
+    
+}
+
+ .btn-info{
+    border: 4px solid rgb(10, 148, 240);
+    position: absolute;
+    left:40%;
+    top:110%;
+}
+
+.about{
+    background: linear-gradient(to right, rgb(228, 190, 19), rgba(228, 190, 19, 0));
+
+}
+
+.container h2{
+ text-align: center;
+}
+
+.txt{
+    text-decoration: none;
+}
+
+.bg-primary:hover{
+    color:black
+
+}
+
+
+.navbar{
+    position: sticky;
+    top: 2%;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.portfolio{
+    background: linear-gradient(to right, rgb(228, 190, 19), rgba(228, 190, 19, 0));
+    position: relative;
+    top: 4%;
+    
+
+}
+
+.heading h2{
+  position: relative;
+  top: 6%;
+  text-align: center;
+
+}
+
+.col-lg-6{
+    
+}
+
+.containertwo{
+    background: linear-gradient(to right, rgb(167, 0, 78), rgba(167, 0, 78, 0.7));
+    height: 600px;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.container2{
+
+    background: linear-gradient(to right, rgb(167, 0, 78), rgba(167, 0, 78, 0.7));
+    height: 600px;
+
+    border-top-left-radius: 35%; border-bottom-right-radius: 35%; border-bottom-left-radius: 35%;
+
+
+}
+
+.port-info{
+    padding-left: 7% ;
+    padding-right: 7% ;
+    padding-top: 27%;
+    color: white;
+    
+}
+
+
+
+.gal img{
+    border: 3px solid black;
+}
+
+.footer {
+    background: linear-gradient(to right, rgb(167, 0, 78), rgba(167, 0, 78, 0.6));
+    margin-top: 5%;
+}
+
+.footer h4{
+    color: white;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+}
+
+.footer p{
+    color: white;
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 5%;
+  }
+
+  hr.solid {
+    border-top: 3px solid #bbb;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 5%;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+
+  .container2{
+    
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -3;
+    height: 100%
+
+}
+
+
+
+
+.gallery h1{
+
+   
+    
+    font-size: 50px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  
+
+}
+
+.gallery .row1{
+    /* background-color: rgb(0, 0, 0); */
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+}
+
+.gallery .gal .row1 .pic1{
+    background-color: blue;
+}
+
+.gallery .gal{
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+    /* background:linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.6) ); */
+}
+
+.gallery .row1 {
+   
+    /* background:linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.6) ); */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery .row2 {
+    
+    /* background:linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.6) ); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    
+}
+
+.row1 img:hover{
+    opacity: 0.4;
+  transition: 0.6s;
+}
+
+.row2 img:hover{
+    opacity: 0.4;
+  transition: 0.6s;
+}
+
+
+.about h5{
+    color: white;
+}
+
+.ab6{
+    padding: 2%;
+    border: 2px dashed white;
+}
+
+.about .ab3{ background-color: rgb(0, 0, 0);
+    border-radius: 4%
+}
+
+.about .ab6{
+    background-color: rgb(0, 0, 0);
+    border-radius: 4%;
+}
+
+
+
+.men1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3%;
+}
+
+.men2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+
+
+}
+
+.m1 img{
+    border-radius: 4px;
+    margin-left: 7.5%;
+    border: 2px dashed white;
+
+    
+
+}
+
+.m2 img{
+    border-radius: 4px;
+    margin-left: 7.5%;
+    border: 2px dashed white;
+    
+}
+
+
+.m3 img{
+    border-radius: 4px;
+    margin-left: 7.5%;
+    border: 2px dashed white;
+    
+}
+
+.about img{
+    border-radius: 50%;
+    padding: 8%;
+    
+}
+
+
+.men3{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+
+}
+
+.m1{
+    background-color: rgb(0, 0, 0);
+   
+    border-radius: 6%;
+    border: 3px dashed white
+    
+
+}
+
+.m2{
+    background-color: rgb(0, 0, 0);
+    border-radius: 6%;
+    border: 3px dashed white
+
+}
+
+.m3{
+    background-color: rgb(0, 0, 0);
+    border-radius: 6%;
+    border: 3px dashed white
+
+}
+
+
+.about-section{
+    background: linear-gradient(to right, rgb(228, 190, 19), rgba(228, 190, 19, 0));
+    
+}
+
+.containery{
+    background: radial-gradient(circle, rgba(10, 182, 173, 0.4), rgb(0, 0, 0) );
+    border:8px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.containertwo {
+ 
+    animation: mymove 5s infinite;
+  }
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
+
+
+
+
+
+
+
+@media (max-width: 1173px){
+   
+   
+   .carry{
+
+    position: absolute;
+
+    left: 0%;
+    top: 20%;
+    max-width: 100%;
+   
+
+    
+}
+
+.main{
+    margin-right: 0%;
+}
+
+
+
+.main-content h1{
+    
+   
+}
+
+.main-content h5{
+    
+    display: none;
+}
+
+.carousel-inner img{
+    border-bottom-left-radius: 0%;
+    border-top-left-radius: 0%;
+
+}
+
+
+.main-content{
+    position: absolute;
+    
+    top: 30%;
+    left:5%
+
+}
+
+
+
+
+
+}
+
+@media (max-width: 700px){
+
+    .imangi{
+        border-top-right-radius: 0%; 
+        border-bottom-left-radius: 0%
+    }
+}
+
+
+
+
